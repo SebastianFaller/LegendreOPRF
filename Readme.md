@@ -1,7 +1,6 @@
 # Legendre OPRF
-This is an implementation of the OPRF based on OT, Zero-Knowledge proofs, and Legendre Symbols.
+This is an implementation of the Legendre Symbol based OPRF of Beullens et al. [2Hash OPRF framework](https://eprint.iacr.org/2024/450.pdf).
 
-The protocol is an instantiation of the [2Hash OPRF framework](https://eprint.iacr.org/2024/450.pdf).
 
 The goal of the implementation is to prove the concrete efficiency of this approach. It was tested under WSL on Windows and under Ubuntu. However, this is not an industry-level implementation and there might still be subtle bugs.
 
